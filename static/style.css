@@ -1,0 +1,256 @@
+/* ==========================
+   SMART LENDER CSS
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    min-height:100vh;
+}
+
+/* Navbar */
+
+.navbar{
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-size:17px;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:yellow !important;
+}
+
+/* Card */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    background:white;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.3);
+
+    transition:.4s;
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* Heading */
+
+h1{
+
+    font-weight:bold;
+
+}
+
+p{
+
+    color:#666;
+
+}
+
+/* Labels */
+
+.form-label{
+
+    font-weight:600;
+
+}
+
+/* Inputs */
+
+.form-control,
+
+.form-select{
+
+    border-radius:12px;
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+}
+
+.form-control:focus,
+
+.form-select:focus{
+
+    border-color:#0d6efd;
+
+    box-shadow:0 0 10px rgba(13,110,253,.3);
+
+}
+
+/* Buttons */
+
+.btn-success{
+
+    border-radius:40px;
+
+    padding:12px 35px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.btn-success:hover{
+
+    transform:scale(1.05);
+
+}
+
+.btn-secondary{
+
+    border-radius:40px;
+
+    padding:12px 35px;
+
+}
+
+/* Alert */
+
+.alert{
+
+    border-radius:15px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+/* Footer */
+
+footer{
+
+    color:white;
+
+    margin-top:40px;
+
+}
+
+/* Dashboard Cards */
+
+.dashboard-card{
+
+    border-radius:20px;
+
+    color:white;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:scale(1.05);
+
+}
+
+.blue{
+
+    background:#007bff;
+
+}
+
+.green{
+
+    background:#28a745;
+
+}
+
+.orange{
+
+    background:#fd7e14;
+
+}
+
+.red{
+
+    background:#dc3545;
+
+}
+
+/* Table */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+table th{
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+table td{
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    text-align:center;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.card{
+
+margin:15px;
+
+}
+
+.navbar-brand{
+
+font-size:22px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-top:10px;
+
+}
+
+}
